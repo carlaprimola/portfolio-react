@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-top: -120px;
+}
+
+.about-main{
+    display: flex;
+    
+    margin-top: 50px;
+}
+
+.about-main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgAbout{
+    margin-left: 100px;
+}
+
+article{
+    width: 90%;
+    text-align: justify;
+}
+
+article p{
+    font-size: 20px;
+    
+}
+
+.text-projects{
+    text-align: center;
+    margin-top: 20px;
+}

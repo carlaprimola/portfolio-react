@@ -1,0 +1,107 @@
+.projects-section{
+  margin-top: 0;
+}
+
+.contact-section{
+  margin: 0;
+}
+
+.menuIcon {
+  display: none;
+  cursor: pointer;
+  order: 3; /* Cambia el orden para colocar el icono en la parte derecha */
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.rotateBar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hideBar {
+  opacity: 0;
+}
+
+.rotateBar2 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent; 
+}
+
+.logo {
+  order: 1;
+}
+
+.logoImage {
+  display: block;
+}
+
+.navLinks {
+  order: 2;
+  display: flex;
+  align-items: center;
+}
+
+.navLinks a {
+  margin-left: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.3s ease;
+}
+
+.navLinks a:hover {
+  background-color: #c1a7b3;
+  padding: 3px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.showMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navLinks a {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .menuIcon {
+    display: block;
+    margin-left: auto; /* Mueve el icono a la derecha */
+    margin-top: -150px;
+  }
+}

@@ -1,0 +1,87 @@
+{
+    "portfolio":[ 
+ {
+  "id": "001",
+  "projectName": "Landing Page",
+  "description": "¡Bienvenido a MKTSchool! 🚀 Descubre aquí mi primer Proyecto como desarrolladora web. Una Landing Page diseñada con HTML y CSS. En este espacio virtual, te ofrezco cursos online de redes sociales que despertarán tu creatividad. Pero, ¡atención! Para sumergirte en esta emocionante aventura digital, necesitas tu pase mágico. ¡Regístrate ahora y únete a la diversión! 🌟",
+  "category": "Landing Page",
+  "dateCreation": 45200,
+  "tecnology": "HTML, CSS",
+  "githubLink": "https:\/\/github.com\/carlaprimola\/Proyecto1.git",
+  "figmaLink": "https:\/\/www.figma.com\/proto\/N8q0Yb1C67o2cIILjgmDa0\/Proyecto-Landing-Page?page-id=0%3A1&node-id=1-7621&starting-point-node-id=1%3A7621&mode=design&t=IVvlyprhBm4WpswN-1",
+  "deployLink": "-",
+  "image": "landingpage.jpg"
+ },
+ {
+  "id": "002",
+  "projectName": "Happy Phone",
+  "description": "¡Explora el Universo Móvil con nuestro Proyecto E-Commerce HappyPhone! 🛍️ Diseñado con HTML y CSS para brindarte una experiencia única. En este vibrante espacio, te ofrecemos la oportunidad de llevar la tecnología a otro nivel con nuestros dispositivos móviles de gama alta. ¡Sumérgete en la magia digital de las compras en línea! 🌟 ¡Te esperamos con las puertas abiertas a la innovación! 🚀. Este Proyecto fue muy especial para mí, ya que tuve la maravillosa oportunidad de ser la Scrum Master y coordinar todo el proyecto, junto con la ayuda de un estupendo equipo.",
+  "category": "E-commerce",
+  "dateCreation": "noviembre 2023",
+  "tecnology": "HTML, CSS",
+  "githubLink": "https:\/\/github.com\/carlaprimola\/HappyPhone.git",
+  "figmaLink": "https:\/\/www.figma.com\/proto\/BPTfQvHJn5VEmn5eLEw2OU\/HappyPhone?page-id=11%3A4&node-id=131-108&mode=design&t=YBKDG2KV5LMxfmuv-1",
+  "deployLink": "-",
+  "image": "happyphone.jpg"
+ },
+ {
+  "id": "003",
+  "projectName": "Consumo API de Rick & Morty",
+  "description": "¡Bienvenido a mi Fiesta de Personajes Rick & Morty! 🎉 Con mi proyecto de Consumo de la API pública, al hacer clic en \"¡Nuevo personaje!\", te sorprenderé con un personaje aleatorio. ¿Quieres más diversión? ¡Haz clic de nuevo para reiniciar el contador y descubrir otro personaje al azar! 🚀 ¡La diversión está a solo un clic de distancia! 🌟",
+  "category": "consumo de una API pública",
+  "dateCreation": "December 2023",
+  "tecnology": "HTML, CSS, Javascript",
+  "githubLink": "https:\/\/github.com\/carlaprimola\/api-rick-and-morty.git",
+  "figmaLink": "https:\/\/www.figma.com\/file\/4brppxqqzuqvmWjsAy3dcX\/API?type=design&node-id=0%3A1&mode=design&t=1MT1YMEEpUpWw14Y-1",
+  "deployLink": "https:\/\/carlaprimola.github.io\/api-rick-and-morty\/",
+  "image": "rickmorty.jpg"
+ },
+ {
+  "id": "004",
+  "projectName": "Proyecto Miguel fotografía",
+  "description": "Bienvenidos al proyecto del fotógrafo Miguel Meixoeiro, creado por un talentoso equipo. Este e-commerce ofrece imágenes en gran formato en versión imprimible. La galería de fotografías está realizada con una API propia que refleja el esfuerzo y la creatividad del grupo. ¡Explora las visiones únicas capturadas por el equipo y lleva a casa la magia de la fotografía en cada impresión! 📸🌟",
+  "category": "E-commerce",
+  "dateCreation": "December 2023",
+  "tecnology": "HTML, CSS, Javascript",
+  "githubLink": "https:\/\/github.com\/carlaprimola\/Navidad2.git",
+  "figmaLink": "https:\/\/www.figma.com\/file\/vUTdBWlIV7PQVzRoj1TQ27\/Grupo-I---Carrito-de-compra?type=design&node-id=73%3A2&mode=design&t=vCJCfo26kunxI0G4-1",
+  "deployLink": "https:\/\/meixoeirophotography.netlify.app\/",
+  "image": "miguelfoto.jpg"
+ },
+ {
+  "id": "005",
+  "projectName": "Felicitación Navidad",
+  "description": "Presento un proyecto navideño para mi compañera de bootcamp, ShanShan. ¡Celebremos la magia de las fiestas y la colaboración! Esta felicitación refleja mi creatividad y habilidades en un formato divertido. ¡Échale un vistazo y descubre cómo transformo momentos simples en experiencias especiales! 🎄🌟",
+  "category": "Felicitación",
+  "dateCreation": "December 2023",
+  "tecnology": "HTML, CSS, Javascript",
+  "figmaLink": "-",
+  "deployLink": "-",
+  "image": "navidad.jpg"
+ },
+ {
+  "id": "006",
+  "projectName": "Pokemon API con React",
+  "description": "Echa un vistazo a mi proyecto \"Consumo de PokeAPI con React\". ¡Es todo sobre Pokémon y React en una combinación emocionante! Este proyecto refleja mi habilidad para integrar datos de APIs y construir interfaces dinámicas con React. Descubre cómo llevé mi amor por Pokémon al siguiente nivel. ¡Haz clic para explorar este proyecto que captura la esencia de mi estilo de desarrollo! 🚀🔍",
+  "category": "consumo de una API pública",
+  "dateCreation": "January 2024",
+  "tecnology": "HTML, CSS, Javascript, React",
+  "githubLink": "https:\/\/github.com\/carlaprimola\/react-pokemon.git",
+  "figmaLink": "-",
+  "deployLink": "-",
+  "image": "pokemon.jpg"
+ },
+ {
+  "id": "007",
+  "projectName": "Proyecto Chicha Rica",
+  "description": "Explora el \"Proyecto del fotógrafo Miguel Meixoeiro\", una colaboración excepcional de todo el equipo. Este e-commerce ofrece imágenes en gran formato listas para imprimir. La galería de fotografías, construida con una API propia, destaca la colaboración y habilidades del equipo. Además, presenta un proceso de compra completo con carrito y pasarela de pago para una experiencia de usuario sin complicaciones. ¡Sumérgete en este proyecto que combina la visión colectiva con habilidades técnicas destacadas! 📸🌟",
+  "category": "E-commerce",
+  "dateCreation": "January 2024",
+  "tecnology": "HTML, CSS, Javascript, React",
+  "githubLink": "https:\/\/github.com\/leamontoya19\/react-project.git",
+  "figmaLink": "https:\/\/www.figma.com\/file\/4brppxqqzuqvmWjsAy3dcX\/API?type=design&node-id=0%3A1&mode=design&t=1MT1YMEEpUpWw14Y-1",
+  "deployLink": "https:\/\/react-project-mu-olive.vercel.app\/",
+  "image": "chicharica.jpg"
+ }
+]
+}

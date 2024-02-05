@@ -1,0 +1,22 @@
+.mobile-mockup {
+    position: relative;
+    width: 375px; /* Ancho del mockup del móvil */
+    height: 667px; /* Alto del mockup del móvil */
+    background: #f0f0f0; /* Color de fondo del mockup */
+    border: 16px solid #ddd; /* Borde del mockup */
+    border-radius: 36px; /* Borde redondeado del mockup */
+    overflow: hidden;
+    margin: 50px auto; /* Alinea el mockup al centro */
+    margin-top: 80px;
+  }
+  
+  .screen {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    background: white;
+    overflow: hidden;
+  }
+  
