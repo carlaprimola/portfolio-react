@@ -15,8 +15,8 @@ export default function Navbar() {
   return (
     
       <header className='navbar'>
-         <Link href='../../page.js'> 
-          <figure className='logo'>
+         <Link href='/'> 
+         
             <Image
               src="/img/logo.png"
               alt="Logo Carla"
@@ -24,7 +24,8 @@ export default function Navbar() {
               height={200}
               className='logoImage'
             />
-          </figure>
+            
+         
         
       </Link>
         <nav className={`navLinks ${isMenuOpen ? 'showMenu' : ''}`}>

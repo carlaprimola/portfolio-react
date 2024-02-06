@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '@/app/components/ProjectInfo/project.css';
+import Image from 'next/image'
 
 export default function Project() {
   const [currentProjects, setProjects] = useState([]);
@@ -24,6 +25,12 @@ export default function Project() {
       {currentProjects.map(({ id, projectName, description, category, tecnology, githubLink, figmaLink, deployLink }) => (
         <main key={id}>
           <h3>{projectName}</h3>
+          <Image 
+            src="https://i.postimg.cc/MGwKPv0F/landingpage.png"
+            alt="Foto Carla Escobar Prímola"
+            width={800}
+            height={800}
+          />
           <h4>{category}</h4>
           <article>{description}</article>
           <p className='tecnology'><strong>{tecnology}</strong></p>

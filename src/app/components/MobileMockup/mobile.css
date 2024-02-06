@@ -19,4 +19,51 @@
     background: white;
     overflow: hidden;
   }
+
+  .upper-section{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+  }
+
+  .profile-img{
+    border: 50%;
+    z-index: 10000;
+  }
+
+  .circular-image {
+    width: 100px;  
+    height: 100px; 
+    overflow: hidden;
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+
+    margin: 5px;
+  }
+
+  .imgHome{
+    border: 50%;
+  }
+
+  .lower-section{
+    width: 100%;
+    height: 50%;
+   
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    
+  }
+
+  .post-ig{
+    width: auto; 
+    height: auto; 
+    background-color: #ddd; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(72, 71, 71);
+
+   
+  } 
   
