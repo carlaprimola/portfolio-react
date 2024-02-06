@@ -38,12 +38,51 @@
     border-radius: 50%; 
     border: 2px solid #fff; 
 
-    margin: 5px;
+    margin: 8px;
   }
 
   .imgHome{
     border: 50%;
   }
+
+  .info-profile{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .data-ig{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    gap: 3px
+  }
+
+  h5{
+    margin-left: 10px;
+  }
+
+  h6{
+    font-size: 13px;
+    font-weight: 300;
+    color: gray;
+    margin-left: 10px;
+  }
+
+  .description-ig{
+    font-size: 12px;
+    text-align: justify;
+    margin: 10px;
+    
+  }
+
+  .edit-profile{
+    border: 1px solid rgb(212, 206, 206);
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+
 
   .lower-section{
     width: 100%;
@@ -62,7 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(72, 71, 71);
+    border: 1px solid rgb(173, 170, 170);
 
    
   } 

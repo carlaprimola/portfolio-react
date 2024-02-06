@@ -9,18 +9,32 @@ const MobileMockup = ({ children }) => {
     <section className="mobile-mockup">
       <main className="screen">{children}
         <div className='upper-section'>
-          <div className='profile-img'>
-            <div className='circular-image'>
-            <Image
-                src="/img/foto-about.jpg"
-                alt="Foto Carla Escobar Prímola"
-                width={800}
-                height={800}
-                className='imgHome'
-              />
-              </div>
+          <section className='info-profile'>
+            <div className='profile-img'>
+              <div className='circular-image'>
+              <Image
+                  src="/img/foto-about.jpg"
+                  alt="Foto Carla Escobar Prímola"
+                  width={800}
+                  height={800}
+                  className='imgHome'
+                />
+                </div>
+            </div>
+            <div className='data-ig'>9 Posts</div>
+            <div className='data-ig'>100 Followers</div>
+            <div className='data-ig'>155 Following</div>
+          </section>
+          
+          <div>
+            <h5>Carla Escobar Prímola</h5>
+            <h6>Jr. Full stack developer & Digital Marketing</h6>
+            <p className='description-ig'>Vengo del mundo del marketing digital y tras estudiar un bootcamp en Desarrollo web full stack & ciberseguridad, he querido adentrarme en el sector IT. ¡Echa un ojo a mi Portfolio!</p>
           </div>
         </div>
+
+        <div className='edit-profile'>Edit profile</div>
+
         <div className='lower-section'>
           <div className='post-ig'>Sobre mí</div>
           <div className='post-ig'>Contacto</div>
