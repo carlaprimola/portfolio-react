@@ -36,8 +36,8 @@ const MobileMockup = ({ children }) => {
         <div className='edit-profile'>Edit profile</div>
 
         <div className='lower-section'>
-          <div className='post-ig'>Sobre mí</div>
-          <div className='post-ig'>Contacto</div>
+          <div className='post-ig'>GitHub</div>
+          <div className='post-ig'>Linkedin</div>
           <div className='post-ig'>CV</div>
           <div className='post-ig'>Proyecto 4</div>
           <div className='post-ig'>Proyecto 5</div>

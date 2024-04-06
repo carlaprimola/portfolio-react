@@ -82,6 +82,30 @@
   "figmaLink": "https:\/\/www.figma.com\/file\/4brppxqqzuqvmWjsAy3dcX\/API?type=design&node-id=0%3A1&mode=design&t=1MT1YMEEpUpWw14Y-1",
   "deployLink": "https:\/\/react-project-mu-olive.vercel.app\/",
   "image": "chicharica.jpg"
- }
+ },
+ {
+    "id": "008",
+    "projectName": "Blog de recetas",
+    "description": "Visita mi \"Rincón de Recetas y Código\", un blog donde las recetas y el código se mezclan en un festín de creatividad 🚀",
+    "category": "Blog",
+    "dateCreation": "Febrero 2024",
+    "tecnology": "HTML, CSS, Javascript, React, Boostrap, mySQL, Express, Node",
+    "githubLink": "https:\/\/github.com\/carlaprimola\/recetas-blog",
+    "figmaLink": "https:\/\/www.figma.com\/file\/8q9JEJ5AZyAxT1YS1iIFcL/Blog-Recetas?type=design&node-id=0-1&mode=design",
+    "deployLink": "https:\/\/react-project-mu-olive.vercel.app\/",
+    "image": "blog.jpg"
+   },
+   {
+    "id": "009",
+    "projectName": "Proyecto de Classroom para INCO Academy",
+    "description": "Visita nuestra \"plataforma de estudio para INCO Academy\", en donde podrás acceder con un login de estudiante o profesor, ¡pero solo si ya formas parte del equipo! 🔐",
+    "category": "Classroom",
+    "dateCreation": "Marzo 2024",
+    "tecnology": "HTML, CSS, Javascript, Next, Tailwind, mySQL, Express, Node",
+    "githubLink": "https:\/\/github.com\/carlaprimola\/inco-classroom-front",
+    "figmaLink": "https:\/\/www.figma.com\/file\/https://www.figma.com/file/rhLYFdWkhjNpxSTt2pmfvM/INCO-ClassRoom?type=design&node-id=0-1&mode=design",
+    "deployLink": "https:\/\/inco-classroom-front-ruby.vercel.app/\/",
+    "image": "inco.jpg"
+   }
 ]
 }

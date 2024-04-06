@@ -20,7 +20,8 @@ export default function about () {
             <div>
               <h1>Carla Escobar Prímola</h1>
               <article>
-                <p>Mi nombre es Carla Escobar Prímola y llevo más de 7 años trabajando en el sector de marketing digital y publicidad. Después de estudiar un bootcamp en desarrollo web full stack con ciberseguridad, decidí cambiar de profesión y pasarme al sector de IT.
+                <p>¡Hola!😊 Mi nombre es Carla Escobar, soy publicista y he trabajado siempre en marketing digital. Ahora, tras haber estudiado un bootcamp de desarrollo web full stack con ciberseguridad, decidí embarcarme en un nuevo viaje y probar suerte en esta apasionante profesión 💻<br></br>
+                  En mi portfolio y mi GitHub podrás ver distintos proyectos, para frontend, backend y full stack. Espero que te guste ✨
                   </p>
                 <p className='text-projects'>
                 ¡Echa un vistazo a mis Proyectos!

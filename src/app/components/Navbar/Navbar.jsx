@@ -29,7 +29,7 @@ export default function Navbar() {
         
       </Link>
         <nav className={`navLinks ${isMenuOpen ? 'showMenu' : ''}`}>
-          <Link className="link" href='/pages/contact'>Contacto</Link>
+          {/* <Link className="link" href='/pages/contact'>Contacto</Link> */}
           <Link className="link" href='/pages/about'>Sobre mí</Link>
           <Link className="link" href='/pages/projects'>Proyectos</Link>
         </nav>
