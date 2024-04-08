@@ -1,8 +1,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
+@import 'https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap';
 
 body{
     background-color: hsl(335, 65%, 93%);
 }
+
+.merienda{
+    font-family: 'Merienda', cursive;
+}
+

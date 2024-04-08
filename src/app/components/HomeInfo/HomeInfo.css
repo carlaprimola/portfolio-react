@@ -1,0 +1,9 @@
+@import 'https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap';
+
+.merienda{
+    font-family: 'Merienda', cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100px;
+}
