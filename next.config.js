@@ -1,8 +1,8 @@
-
-
 module.exports = {
   images: {
-    domains: ['i.postimg.cc'],
+    domains: ['i.postimg.cc', 'postimg.cc'],
   },
-};
+}
+
+
 

@@ -3,6 +3,7 @@ import React from 'react';
 import './mobile.css';
 import Image from 'next/image'
 import IconBar from '../IconBar/IconBar';
+import Link from 'next/link'
 
 const MobileMockup = ({ children }) => {
   return (
@@ -36,8 +37,12 @@ const MobileMockup = ({ children }) => {
         <div className='edit-profile'>Edit profile</div>
 
         <div className='lower-section'>
-          <div className='post-ig'>GitHub</div>
-          <div className='post-ig'>Linkedin</div>
+          <div className='post-ig'>
+            <Link className="" href='https://github.com/carlaprimola' target="_blank">GitHub</Link>
+            </div>
+          <div className='post-ig'>
+            <Link className="" href='https://www.linkedin.com/in/carlaescobarprimola/' target="_blank">Linkedin</Link>
+            </div>
           <div className='post-ig'>CV</div>
           <div className='post-ig'>Proyecto 4</div>
           <div className='post-ig'>Proyecto 5</div>
