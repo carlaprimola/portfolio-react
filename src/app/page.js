@@ -11,12 +11,10 @@ export default function Home() {
   
   return (
     <section>
-      <Navbar/>
-      
-      <main>
-        <MobileMockup/>
+      <Navbar/>            
+      <MobileMockup/>
         
-      </main>
+      
     </section>
   );
 }

@@ -10,7 +10,7 @@
   "githubLink": "https:\/\/github.com\/carlaprimola\/Proyecto1.git",
   "figmaLink": "https:\/\/www.figma.com\/proto\/N8q0Yb1C67o2cIILjgmDa0\/Proyecto-Landing-Page?page-id=0%3A1&node-id=1-7621&starting-point-node-id=1%3A7621&mode=design&t=IVvlyprhBm4WpswN-1",
   "deployLink": "_",
-  "image": "https://i.postimg.cc/RCTHVwzY/landingpage.png"
+  "image": "https://i.postimg.cc/TPJz5xvj/landing.jpg"
  },
  {
   "id": "002",
@@ -26,9 +26,9 @@
  },
  {
   "id": "003",
-  "projectName": "Consumo API de Rick & Morty",
+  "projectName": "API de Rick & Morty",
   "description": "¡Bienvenido a mi Fiesta de Personajes Rick & Morty! 🎉 Con mi proyecto de Consumo de la API pública, al hacer clic en \"¡Nuevo personaje!\", te sorprenderé con un personaje aleatorio. ¿Quieres más diversión? ¡Haz clic de nuevo para reiniciar el contador y descubrir otro personaje al azar! 🚀 ¡La diversión está a solo un clic de distancia! 🌟",
-  "category": "consumo de una API pública",
+  "category": "Consumo de una API pública",
   "dateCreation": "December 2023",
   "tecnology": "HTML, CSS, Javascript",
   "githubLink": "https:\/\/github.com\/carlaprimola\/api-rick-and-morty.git",
@@ -38,7 +38,7 @@
  },
  {
   "id": "004",
-  "projectName": "Proyecto Miguel fotografía",
+  "projectName": "Web fotografía con JS",
   "description": "Bienvenidos al proyecto del fotógrafo Miguel Meixoeiro, creado por un talentoso equipo. Este e-commerce ofrece imágenes en gran formato en versión imprimible. La galería de fotografías está realizada con una API propia que refleja el esfuerzo y la creatividad del grupo. ¡Explora las visiones únicas capturadas por el equipo y lleva a casa la magia de la fotografía en cada impresión! 📸🌟",
   "category": "E-commerce",
   "dateCreation": "December 2023",
@@ -46,7 +46,7 @@
   "githubLink": "https:\/\/github.com\/carlaprimola\/Navidad2.git",
   "figmaLink": "https:\/\/www.figma.com\/file\/vUTdBWlIV7PQVzRoj1TQ27\/Grupo-I---Carrito-de-compra?type=design&node-id=73%3A2&mode=design&t=vCJCfo26kunxI0G4-1",
   "deployLink": "https:\/\/meixoeirophotography.netlify.app\/",
-  "image": "https://i.postimg.cc/bN0JyPc9/foto.jpg"
+  "image": "https://i.postimg.cc/GhpmcMYS/foto2.jpg"
  },
  {
   "id": "005",
@@ -57,23 +57,23 @@
   "tecnology": "HTML, CSS, Javascript",
   "figmaLink": "-",
   "deployLink": "-",
-  "image": "https://postimg.cc/fJsd6PDM"
+  "image": "https://i.postimg.cc/k4BP0HLx/navidad.jpg"
  },
  {
   "id": "006",
   "projectName": "Pokemon API con React",
   "description": "Echa un vistazo a mi proyecto \"Consumo de PokeAPI con React\". ¡Es todo sobre Pokémon y React en una combinación emocionante! Este proyecto refleja mi habilidad para integrar datos de APIs y construir interfaces dinámicas con React. Descubre cómo llevé mi amor por Pokémon al siguiente nivel. ¡Haz clic para explorar este proyecto que captura la esencia de mi estilo de desarrollo! 🚀🔍",
-  "category": "consumo de una API pública",
+  "category": "Consumo de una API pública",
   "dateCreation": "January 2024",
   "tecnology": "HTML, CSS, Javascript, React",
   "githubLink": "https:\/\/github.com\/carlaprimola\/react-pokemon.git",
   "figmaLink": "-",
   "deployLink": "-",
-  "image": "https://postimg.cc/fJsd6PDM"
+  "image": "https://i.postimg.cc/q7wZcjh3/pokeapi.jpg"
  },
  {
   "id": "007",
-  "projectName": "Proyecto Chicha Rica",
+  "projectName": "Web Fotografía con React",
   "description": "Explora el \"Proyecto del fotógrafo Miguel Meixoeiro\", una colaboración excepcional de todo el equipo. Este e-commerce ofrece imágenes en gran formato listas para imprimir. La galería de fotografías, construida con una API propia, destaca la colaboración y habilidades del equipo. Además, presenta un proceso de compra completo con carrito y pasarela de pago para una experiencia de usuario sin complicaciones. ¡Sumérgete en este proyecto que combina la visión colectiva con habilidades técnicas destacadas! 📸🌟",
   "category": "E-commerce",
   "dateCreation": "January 2024",
@@ -81,7 +81,7 @@
   "githubLink": "https:\/\/github.com\/leamontoya19\/react-project.git",
   "figmaLink": "https:\/\/www.figma.com\/file\/4brppxqqzuqvmWjsAy3dcX\/API?type=design&node-id=0%3A1&mode=design&t=1MT1YMEEpUpWw14Y-1",
   "deployLink": "https:\/\/react-project-mu-olive.vercel.app\/",
-  "image": "https://i.postimg.cc/bN0JyPc9/foto.jpg"
+  "image": "https://i.postimg.cc/GhpmcMYS/foto2.jpg"
  },
  {
     "id": "008",
