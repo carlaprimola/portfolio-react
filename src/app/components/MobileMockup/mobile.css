@@ -106,3 +106,42 @@
    
   } 
   
+  .github{
+    background-image: url("https://i.postimg.cc/sfpb28pw/fondo2.jpg");
+    background-size: cover;
+    opacity: 1;
+  }
+
+  .github:hover{
+    transform: scale(1.1); 
+    background-color: black;
+  }
+
+  .linkedin{
+    background-image: url("https://i.postimg.cc/prtMpMGJ/fondo.jpg");
+    background-size: cover;
+    opacity: 0.9;
+  }
+
+  .linkedin:hover{
+    transform: scale(1.1); 
+    background-color: black;
+  }
+
+  .cv{
+    background-image: url("https://i.postimg.cc/Xqp89rrf/fondo3.jpg");
+    background-size: cover;
+    opacity: 0.9;
+  }
+
+  .post-ig:hover{
+    transform: scale(1.1); 
+    background-color: black;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+
+  .proyecto{
+    background-image: url("https://i.postimg.cc/kXyPVYtF/fondo4.jpg");
+    background-size: cover;
+    opacity: 0.9;
+  }

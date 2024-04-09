@@ -1,12 +1,13 @@
-"use client";
+'use client'
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "@/app/components/ProjectInfo/project.css";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Project() {
   const [currentProjects, setProjects] = useState([]);
+  const [currentProject, setCurrentProject] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,12 +22,10 @@ export default function Project() {
     fetchData();
   }, []);
 
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <section className="projects-section mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap">
-      {currentProjects.map(
-        ({
+      {currentProjects.map((project) => {
+        const {
           id,
           projectName,
           description,
@@ -36,7 +35,9 @@ export default function Project() {
           figmaLink,
           deployLink,
           image,
-        }) => (
+        } = project;
+
+        return (
           <article
             key={id}
             className="card w-96 bg-base-100 shadow-xl rounded-t-xl rounded-b-xl flex-grow"
@@ -61,7 +62,10 @@ export default function Project() {
 
             <div className="flex justify-center ">
               <button
-                onClick={() => setIsOpen(true)}
+                onClick={() => {
+                  setIsOpen(true);
+                  setCurrentProject(project);
+                }}
                 className="btn btn-outline btn-error mb-4 text-xl"
               >
                 Ver más
@@ -69,7 +73,7 @@ export default function Project() {
             </div>
 
             {/* Modal */}
-            {isOpen && (
+            {isOpen && currentProject && (
               <div
                 className="fixed z-10 inset-0 overflow-y-auto"
                 aria-labelledby="modal-title"
@@ -91,18 +95,27 @@ export default function Project() {
                     <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                       <div className="sm:flex sm:items-start">
                         <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                          
+                          <figure>
+                            <Image
+                              src={currentProject.image}
+                              alt={currentProject.projectName}
+                              width={400}
+                              height={400}
+                              layout="responsive"
+                              className="w-full h-full object-cover transform transition-all duration-500 hover:scale-110"
+                            />
+                          </figure>
                           <h3
                             className="text-lg leading-6 font-medium text-gray-900"
                             id="modal-title"
-                          >                          
-                            {projectName}
+                          >
+                            {currentProject.projectName}
                           </h3>
-                          <article>{description}</article>
-                          <section className="flex w-100 mt-4 mb-4 gap-5 text-center rounded-lg justify-center items-center align-middle">
-                            <p className="tecnology text-xs w-30 text-center bg-red-100 rounded-lg p-2 text-red-500 items-center">
-                              <strong>{tecnology}</strong>
-                            </p>
-                          </section>
+                          <div className="mt-2">
+                            <p>{currentProject.description}</p>
+                          </div>
+                          <div className="mt-2">
                           <div className="mt-2">
                             <p>
                               <a
@@ -132,13 +145,14 @@ export default function Project() {
                               </a>
                             </p>
                           </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                       <button
-                        onClick={() => setIsOpen(false)}
                         type="button"
+                        onClick={() => setIsOpen(false)}
                         className="btn btn-error"
                       >
                         Cerrar
@@ -149,8 +163,8 @@ export default function Project() {
               </div>
             )}
           </article>
-        )
-      )}
+        );
+      })}
     </section>
   );
 }

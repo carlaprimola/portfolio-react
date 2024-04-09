@@ -1,6 +1,6 @@
 // src/components/MobileMockup.js
 import React from "react";
-// import './mobile.css';
+import './mobile.css';
 import Image from "next/image";
 import IconBar from "../IconBar/IconBar";
 import Link from "next/link";
@@ -44,32 +44,88 @@ const MobileMockup = ({ children }) => {
 
           <div className="edit-profile mt-10">Edit profile</div>
 
-          <div className="lower-section bg-gray-200">
-            <div className="post-ig bg-white">
+          <div className="lower-section bg-white">
+            <div className="post-ig github cursor-pointer">
               <Link
-                className=""
+                className="text-black text-lg font-bold transition-colors hover:text-black"
                 href="https://github.com/carlaprimola"
                 target="_blank"
               >
                 GitHub
               </Link>
             </div>
-            <div className="post-ig">
+            <div className="post-ig linkedin cursor-pointer">
               <Link
-                className=""
+                className="text-black text-lg font-bold transition-colors"
                 href="https://www.linkedin.com/in/carlaescobarprimola/"
                 target="_blank"
               >
                 Linkedin
               </Link>
             </div>
-            <div className="post-ig">CV</div>
-            <div className="post-ig">Proyecto 4</div>
-            <div className="post-ig">Proyecto 5</div>
-            <div className="post-ig">Proyecto 6</div>
-            <div className="post-ig">Proyecto 7</div>
-            <div className="post-ig">Proyecto 8</div>
-            <div className="post-ig">Proyecto 9</div>
+            <div className="post-ig cv cursor-pointer">
+            <Link
+                className="text-black text-lg font-bold transition-colors"
+                href="https://www.linkedin.com/in/carlaescobarprimola/"
+                target="_blank"
+              >
+                CV
+              </Link>
+              </div>
+            <div className="post-ig proyecto cursor-pointer">
+            <Link
+                className="text-black text-lg font-bold transition-colors"
+                href="https://www.linkedin.com/in/carlaescobarprimola/"
+                target="_blank"
+              >
+                Proyecto 4
+              </Link>
+              </div>
+            <div className="post-ig proyecto cursor-pointer">
+            <Link
+                className="text-black text-lg font-bold transition-colors"
+                href="https://www.linkedin.com/in/carlaescobarprimola/"
+                target="_blank"
+              >
+                Proyecto 5
+              </Link>
+              </div>
+            <div className="post-ig proyecto cursor-pointer">
+            <Link
+                className="text-black text-lg font-bold transition-colors"
+                href="https://www.linkedin.com/in/carlaescobarprimola/"
+                target="_blank"
+              >
+                Proyecto 6
+              </Link>
+              </div>
+            <div className="post-ig proyecto cursor-pointer">
+            <Link
+                className="text-black text-lg font-bold transition-colors"
+                href="https://www.linkedin.com/in/carlaescobarprimola/"
+                target="_blank"
+              >
+                Proyecto 7
+              </Link>
+              </div>
+            <div className="post-ig proyecto cursor-pointer">
+            <Link
+                className="text-black text-lg font-bold transition-colors"
+                href="https://www.linkedin.com/in/carlaescobarprimola/"
+                target="_blank"
+              >
+                Proyecto 8
+              </Link>
+              </div>
+            <div className="post-ig proyecto cursor-pointer">
+            <Link
+                className="text-black text-lg font-bold transition-colors"
+                href="https://www.linkedin.com/in/carlaescobarprimola/"
+                target="_blank"
+              >
+                Proyecto 9
+              </Link>
+              </div>
           </div>
         </section>
       </div>
